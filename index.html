@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Capoeira Kids — +300 Atividades Infantis de Capoeira</title>
+<meta name="description" content="+300 atividades infantis de capoeira prontas para usar nas suas aulas: brincadeiras, ginga, esquivas, roda, circuitos e 100 ilustrações.">
+<meta name="theme-color" content="#CE6244">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://player.vimeo.com">
+<link rel="dns-prefetch" href="https://player.vimeo.com">
+<link rel="preconnect" href="https://i.vimeocdn.com">
+<link rel="preconnect" href="https://f.vimeocdn.com">
+
+<!-- META PIXEL -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '3269172659942050');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=3269172659942050&ev=PageView&noscript=1"/></noscript>
+
+<style>
+:root{
+  --bg:#F9F5EC;
+  --card:#FFFFFF;
+  --line:rgba(37,37,37,.1);
+  --txt:#252525;
+  --mut:#7A7A72;
+  --ac:#CE6244;
+  --ac2:#E8B83E;
+  --dk:#173F2E;
+  --ink:#FFFFFF;
+  --ok:#397758;
+  --disp:'Bricolage Grotesque','Arial Black',system-ui,sans-serif;
+  --body:'DM Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:116px}
+body{
+  background:var(--bg);color:var(--txt);font-family:var(--body);
+  line-height:1.55;padding-top:106px;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{width:100%;max-width:1040px;margin:0 auto;padding:0 20px}
+section{padding:64px 0}
+.sec-alt{background:color-mix(in srgb, var(--bg) 90%, var(--dk) 10%);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.sec-div{display:flex;align-items:center;justify-content:center}
+.sec-div span{width:52px;height:3px;border-radius:99px;background:linear-gradient(90deg,var(--ac),var(--ac2))}
+h1,h2,h3{font-family:var(--disp);letter-spacing:-.02em;line-height:1.08}
+h2{font-size:clamp(1.7rem,6vw,2.5rem);text-align:center;margin-bottom:12px}
+.sub{color:var(--mut);text-align:center;max-width:520px;margin:0 auto 32px;font-size:1.02rem}
+:focus-visible{outline:3px solid var(--ac);outline-offset:3px}
+
+/* glass */
+.glass{
+  background:var(--card);border:1px solid var(--line);border-radius:22px;
+  box-shadow:0 10px 30px rgba(23,63,46,.08);
+  transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;
+}
+.glass:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(23,63,46,.14);border-color:rgba(232,184,62,.45)}
+
+/* buttons */
+.btn{
+  display:flex;align-items:center;justify-content:center;gap:8px;text-align:center;
+  background:var(--ac);color:var(--ink);
+  font-family:var(--body);font-weight:700;font-size:1.06rem;text-decoration:none;
+  padding:18px 26px;border-radius:16px;border:0;cursor:pointer;
+  box-shadow:0 10px 30px rgba(206,98,68,.32),inset 0 1px 0 rgba(255,255,255,.25);
+  transition:transform .2s ease,box-shadow .2s ease,filter .2s ease;
+}
+.btn:hover{transform:translateY(-3px);box-shadow:0 16px 40px rgba(206,98,68,.42),inset 0 1px 0 rgba(255,255,255,.25);filter:brightness(1.05)}
+.btn:active{transform:translateY(0)}
+.trust{color:var(--mut);font-size:.88rem;text-align:center;margin-top:14px}
+.trust-row{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:16px}
+.trust-row span{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:6px 14px;font-size:.82rem;color:var(--txt);white-space:nowrap}
+
+/* 1. urgência + nav */
+.topbar{
+  position:fixed;top:0;left:0;right:0;z-index:50;min-height:42px;
+  background:var(--ac);color:var(--ink);font-weight:700;font-size:.86rem;
+  display:flex;align-items:center;justify-content:center;text-align:center;padding:9px 12px;gap:10px;flex-wrap:wrap;
+}
+.topbar .timer{
+  background:var(--ink);color:var(--ac);font-family:var(--disp);font-weight:800;
+  border-radius:99px;padding:5px 14px;font-size:.84rem;white-space:nowrap;
+}
+.navbar{
+  position:fixed;top:42px;left:0;right:0;z-index:49;padding:10px 20px;
+}
+.navbar-inner{
+  max-width:1040px;margin:0 auto;background:var(--card);border:1px solid var(--line);
+  border-radius:16px;box-shadow:0 10px 30px rgba(23,63,46,.08);
+  display:flex;align-items:center;justify-content:space-between;padding:10px 20px;gap:16px;
+}
+.navbar-logo{height:32px;width:auto;display:block}
+.navbar-links{display:none;gap:24px}
+.navbar-links a{color:var(--txt);font-weight:600;font-size:.92rem;text-decoration:none}
+.navbar-links a:hover{color:var(--ac)}
+.navbar-cta{
+  background:var(--ac2);color:var(--dk);font-weight:700;font-size:.9rem;
+  padding:9px 18px;border-radius:99px;text-decoration:none;white-space:nowrap;
+  display:flex;align-items:center;gap:6px;
+}
+@media(min-width:700px){.navbar-links{display:flex}}
+
+/* 2. hero */
+.hero{padding:44px 0 56px;position:relative;overflow:hidden}
+.hero-grid{display:grid;gap:44px;align-items:center}
+.hero-txt{text-align:center}
+.eyebrow{
+  display:inline-block;font-size:.86rem;font-weight:500;color:var(--dk);
+  background:rgba(232,184,62,.16);border:1px solid rgba(232,184,62,.4);
+  padding:7px 14px;border-radius:99px;margin-bottom:20px;
+}
+.hero h1{font-size:clamp(2.2rem,9vw,3.6rem);font-weight:800;margin-bottom:18px}
+.hero-h1{letter-spacing:-.01em}
+.h1-num{
+  position:relative;display:inline-block;color:var(--ac2);
+  -webkit-text-stroke:2px var(--dk);text-shadow:3px 3px 0 var(--dk);
+  margin-right:6px;transform:rotate(-2deg);
+}
+.h1-star{
+  position:absolute;top:-.3em;right:-.55em;font-size:.4em;-webkit-text-stroke:0;
+  text-shadow:none;animation:h1-spin 3s linear infinite;
+}
+@keyframes h1-spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+.h1-accent{
+  color:var(--ac);position:relative;display:inline-block;
+}
+.h1-accent::after{
+  content:"";position:absolute;left:0;right:0;bottom:-.08em;height:.14em;
+  background:var(--ac2);border-radius:99px;z-index:-1;opacity:.55;
+}
+.hero p.lead{color:var(--mut);font-size:1.12rem;max-width:480px;margin:0 auto 28px}
+.hero .btn{max-width:420px;margin:24px auto 0}
+.hero-visual{display:flex;flex-direction:column;align-items:center}
+.phone-wrap{position:relative;display:flex;justify-content:center}
+/* roda: anéis atrás do celular */
+.phone-wrap::before,.phone-wrap::after{
+  content:"";position:absolute;top:50%;left:50%;border-radius:50%;
+  border:1px solid rgba(232,184,62,.32);transform:translate(-50%,-50%);pointer-events:none;
+}
+.phone-wrap::before{width:340px;height:340px;background:radial-gradient(circle,rgba(232,184,62,.2),transparent 68%)}
+.phone-wrap::after{width:460px;height:460px;border-color:rgba(232,184,62,.16)}
+.phone{
+  position:relative;z-index:2;width:300px;aspect-ratio:9/16;
+  background:#0c0c0c;border:7px solid #1c1c1c;border-radius:36px;overflow:hidden;
+  box-shadow:0 30px 60px rgba(23,63,46,.25),0 0 0 1px rgba(0,0,0,.08),0 0 60px rgba(232,184,62,.25);
+}
+.phone::before{content:"";position:absolute;top:8px;left:50%;transform:translateX(-50%);width:70px;height:18px;background:#000;border-radius:12px;z-index:5;pointer-events:none}
+.phone iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.poster{
+  position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;
+  background:radial-gradient(circle at 50% 40%,#3a2b00,#0a0700 70%);cursor:pointer;border:0;color:#F5F5F2;font-family:var(--body);z-index:2;
+}
+.poster .play{
+  width:74px;height:74px;border-radius:50%;background:var(--ac);color:var(--ink);
+  display:flex;align-items:center;justify-content:center;font-size:1.7rem;padding-left:5px;
+  box-shadow:0 0 0 10px rgba(206,98,68,.22);transition:transform .2s;
+}
+.poster:hover .play{transform:scale(1.08)}
+.poster span.t{font-family:var(--disp);font-weight:800;font-size:1.5rem;text-align:center;line-height:1.1;padding:0 18px}
+.poster span.s{font-size:.82rem;color:#AAA9A3}
+
+/* 3. para quem é */
+.who-eyebrow{display:block;text-align:center}
+.who-title{text-align:center;margin-bottom:40px}
+.who-layout{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;max-width:980px;margin:0 auto}
+.who-photo-wrap{position:relative;display:flex;justify-content:center}
+.who-photo{width:100%;max-width:340px;border-radius:26px;border:5px solid var(--ac2);box-shadow:0 20px 40px rgba(23,63,46,.15);display:block}
+.who-sparkle{position:absolute;background:#fff;border:1px solid var(--line);border-radius:12px;width:34px;height:34px;display:flex;align-items:center;justify-content:center;font-size:1rem;box-shadow:0 6px 14px rgba(0,0,0,.08)}
+.who-sparkle-tl{top:-14px;left:-14px}
+.who-sparkle-br{bottom:-14px;right:-14px}
+.who-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.who-card{padding:20px}
+.who-icon{width:42px;height:42px;border-radius:12px;background:var(--dk);color:var(--ink);display:flex;align-items:center;justify-content:center;font-size:1.15rem;margin-bottom:12px}
+.who-card h3{font-size:1rem;margin-bottom:6px}
+.who-card p{color:var(--mut);font-size:.86rem;line-height:1.5}
+@media(max-width:720px){.who-layout{grid-template-columns:1fr}.who-grid{grid-template-columns:1fr 1fr}}
+.who strong{color:var(--ac)}
+
+/* 4. o que recebe */
+.get{max-width:640px;margin:0 auto;padding:10px 24px 22px}
+.get h3{
+  font-size:1.25rem;font-family:var(--disp);font-weight:700;color:var(--dk);
+  margin:30px 0 16px;letter-spacing:0;text-align:center;position:relative;padding-bottom:12px;
+}
+.get h3::after{content:"";position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:48px;height:3px;border-radius:2px;background:rgba(57,119,88,.4)}
+.get h3:first-child{margin-top:6px}
+.get ul{list-style:none;display:grid;gap:10px}
+.get li{
+  background:rgba(57,119,88,.06);border-radius:14px;padding:16px 18px;
+  display:flex;align-items:center;gap:14px;text-align:left;font-size:1rem;
+}
+.get li .chk{
+  width:32px;height:32px;border-radius:50%;flex:none;background:radial-gradient(circle at 35% 30%,#4CAE6C,#2E7D46);
+  display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:.95rem;
+  box-shadow:0 0 0 6px rgba(57,119,88,.1);
+}
+
+/* 5. carrosséis automáticos */
+.demo{padding-left:0;padding-right:0;overflow:hidden}
+.marquee-row{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.marquee-row + .marquee-row{margin-top:16px}
+.track{display:flex;gap:14px;width:max-content;animation:slideL 44s linear infinite}
+.track.rev{animation-name:slideR}
+.marquee-row:hover .track{animation-play-state:paused}
+@keyframes slideL{to{transform:translateX(-50%)}}
+@keyframes slideR{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+.slide{
+  width:350px;flex:none;aspect-ratio:1241/1754;border-radius:14px;overflow:hidden;position:relative;
+  background:linear-gradient(160deg,#173F2E,#0e2a1f);border:1px solid var(--line);color:#F9F5EC;
+  box-shadow:0 10px 26px rgba(23,63,46,.18);
+}
+.slide img{width:100%;height:100%;object-fit:cover;display:block}
+.slide .ic{font-size:3rem}
+.slide .nm{font-family:var(--disp);font-weight:700;font-size:1.05rem}
+
+/* 6. bônus */
+.bonus-grid{display:grid;gap:18px;margin-bottom:22px}
+.bcard{overflow:hidden}
+.bcover{
+  aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;font-size:3.6rem;position:relative;
+  background:radial-gradient(circle at 30% 20%,rgba(232,184,62,.4),transparent 60%),linear-gradient(160deg,#173F2E,#0d2419);
+}
+.bcover span{
+  position:absolute;top:12px;left:12px;z-index:2;font-size:.78rem;font-weight:700;background:var(--ac);color:var(--ink);
+  padding:4px 10px;border-radius:99px;font-family:var(--body);
+}
+.bcover img{width:100%;height:100%;object-fit:contain;display:block}
+.bbody{padding:18px 20px 22px}
+.bbody h3{font-size:1.25rem;margin-bottom:10px;text-align:center}
+.summary-img{width:100%;max-width:820px;margin:0 auto;border-radius:22px;box-shadow:0 10px 30px rgba(23,63,46,.1)}
+.bbody ul{list-style:none;color:var(--mut);font-size:.96rem;text-align:center}
+.bbody li{padding:3px 0;position:relative}
+.bbody li::before{content:"✓ ";color:var(--ok);font-weight:700}
+.summary{padding:24px;max-width:560px;margin:0 auto}
+.summary h3{font-size:1.3rem;text-align:center;margin-bottom:14px}
+.summary .row{display:flex;justify-content:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:.98rem;text-align:center}
+.summary .row s{color:var(--mut)}
+.summary .total{display:flex;justify-content:center;align-items:baseline;gap:12px;padding-top:16px;font-weight:700;text-align:center}
+.summary .total s{color:var(--mut);font-weight:400}
+.summary .free{color:var(--ac2);font-family:var(--disp);font-size:1.6rem}
+
+/* 7. oferta */
+.badge-time{
+  display:block;width:fit-content;margin:0 auto 26px;background:rgba(232,184,62,.16);border:1px solid rgba(232,184,62,.45);
+  color:var(--dk);font-weight:700;font-size:.88rem;padding:8px 16px;border-radius:99px;
+}
+.plans{display:grid;gap:22px;max-width:820px;margin:0 auto}
+.plan{padding:28px 24px;position:relative;display:flex;flex-direction:column}
+.plan.main{
+  border:2px solid var(--ac2);background:linear-gradient(180deg,rgba(232,184,62,.14),rgba(255,255,255,.6));
+  box-shadow:0 0 0 1px rgba(232,184,62,.3),0 20px 50px rgba(232,184,62,.18);
+}
+.ribbon{
+  position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--ac2);color:var(--dk);
+  font-weight:700;font-size:.82rem;padding:6px 16px;border-radius:99px;white-space:nowrap;
+}
+.plan h3{font-size:1.3rem;text-align:center;margin-bottom:4px}
+.plan-mock{width:100%;max-width:280px;margin:6px auto 4px;display:block}
+.plan .desc{text-align:center;color:var(--mut);font-size:.92rem;margin-bottom:16px}
+.price{text-align:center;margin-bottom:18px}
+.price s{color:var(--mut);display:block;font-size:.95rem}
+.price b{font-family:var(--disp);font-size:3.1rem;font-weight:800;line-height:1.1}
+.plan.main .price b{color:var(--ac2)}
+.price small{display:block;color:var(--mut);font-size:.85rem}
+.plan ul{list-style:none;margin-bottom:22px;flex:1;text-align:center}
+.plan li{padding:8px 0;font-size:.98rem;border-bottom:1px solid var(--line)}
+.plan li:last-child{border-bottom:0}
+.plan li.y::before{content:"✓ ";color:var(--ok);font-weight:700}
+.plan li.n{color:var(--mut);text-decoration:line-through}
+.plan li.n::before{content:"✕ ";color:#7a7972;text-decoration:none;display:inline-block}
+.btn.alt{
+  background:transparent;color:var(--txt);border:1.5px solid rgba(206,98,68,.55);box-shadow:none;
+}
+.btn.alt:hover{background:rgba(206,98,68,.08);box-shadow:none}
+.pay{text-align:center;color:var(--mut);font-size:.85rem;margin-top:22px}
+
+/* 8. garantia */
+.guar{max-width:560px;margin:0 auto;text-align:center;padding:20px 20px 8px}
+.guar-seal{width:200px;max-width:60%;margin:0 auto 22px;display:block}
+.guar h2{font-size:clamp(1.5rem,5vw,2rem);font-weight:800;color:var(--txt);line-height:1.2;margin-bottom:18px}
+.guar p{color:var(--mut);line-height:1.7}
+
+/* 9. faq */
+.faq{max-width:720px;margin:0 auto;display:grid;gap:12px}
+.faq details{border-radius:16px}
+.faq summary{
+  list-style:none;cursor:pointer;padding:18px 20px;font-weight:700;display:flex;justify-content:space-between;gap:14px;align-items:center;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:1.5rem;color:var(--ac);transition:transform .25s;flex:none;line-height:1}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{padding:0 20px 20px;color:var(--mut);text-align:center}
+
+/* 10. footer */
+footer{padding:36px 0 46px;border-top:1px solid var(--line);text-align:center;color:var(--mut);font-size:.82rem}
+footer p{max-width:560px;margin:0 auto 8px}
+
+/* desktop */
+@media(min-width:860px){
+  section{padding:84px 0}
+  .hero-grid{grid-template-columns:1.1fr .9fr}
+  .phone{width:340px}
+  .bonus-grid{grid-template-columns:repeat(3,1fr)}
+  .plans{grid-template-columns:1fr 1fr;align-items:stretch}
+  .plan.main{order:0}
+  .slide{width:500px}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .track{animation:none;overflow-x:auto}
+  .glass,.btn{transition:none}
+}
+</style>
+</head>
+<body>
+
+<!-- 1. BARRA DE URGÊNCIA -->
+<div class="topbar">🔥 Condição de lançamento termina hoje! <span class="timer" id="countdown">23:59:59</span></div>
+<div class="navbar">
+  <div class="navbar-inner">
+    <img class="navbar-logo" src="assets/img-01.png" alt="Capoeira Kids">
+    <nav class="navbar-links">
+      <a href="#recebe">Conteúdo</a>
+      <a href="#oferta">Planos</a>
+      <a href="#faq">Dúvidas</a>
+    </nav>
+    <a class="navbar-cta" href="#oferta">Começar →</a>
+  </div>
+</div>
+
+<!-- 2. HERO -->
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-txt">
+      <span class="eyebrow">Para quem ensina capoeira para crianças</span>
+      <h1 class="hero-h1">
+        <span class="h1-num">+300<span class="h1-star">✨</span></span>
+        atividades e dinâmicas de <span class="h1-accent">capoeira infantil</span> prontas para a sua aula
+      </h1>
+      <p class="lead">Uma biblioteca visual pra consultar antes de cada aula: abra, escolha pela idade ou objetivo e encontre uma atividade pronta pra adaptar na sua turma.</p>
+    </div>
+    <div class="hero-visual">
+      <div class="phone-wrap">
+        <div class="phone" id="phone">
+          <button class="poster" id="poster" aria-label="Assistir ao vídeo">
+            <div class="play">▶</div>
+            <span class="t">Capoeira Kids</span>
+            <span class="s">Toque para assistir</span>
+          </button>
+        </div>
+      </div>
+      <a class="btn" href="#oferta">Quero acessar as +300 atividades</a>
+      <div class="trust-row">
+        <span>💰 A partir de R$10</span>
+        <span>⚡ Acesso imediato</span>
+        <span>🛡️ Garantia de 7 dias</span>
+        <span>📱 Celular, tablet ou computador</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="sec-div"><span></span></div>
+
+<!-- 3. PARA QUEM É -->
+<section>
+  <div class="wrap">
+    <span class="eyebrow who-eyebrow">Este material foi feito para você se...</span>
+    <h2 class="who-title">Para quem é?</h2>
+    <div class="who-layout">
+      <div class="who-photo-wrap">
+        <div class="who-sparkle who-sparkle-tl">✨</div>
+        <img class="who-photo" src="assets/img-02.jpg" alt="Criança praticando capoeira">
+        <div class="who-sparkle who-sparkle-br">✨</div>
+      </div>
+      <div class="who-grid">
+        <div class="glass who-card">
+          <div class="who-icon">🧑‍🏫</div>
+          <h3>Professores</h3>
+          <p>Aulas dinâmicas e crianças engajadas, sem repetir a mesma brincadeira.</p>
+        </div>
+        <div class="glass who-card">
+          <div class="who-icon">🏫</div>
+          <h3>Academias e escolinhas</h3>
+          <p>Atividades prontas pra qualquer turma, grande ou pequena.</p>
+        </div>
+        <div class="glass who-card">
+          <div class="who-icon">🤝</div>
+          <h3>Projetos sociais</h3>
+          <p>Funciona com pouco espaço, pouco material e idades misturadas.</p>
+        </div>
+        <div class="glass who-card">
+          <div class="who-icon">📍</div>
+          <h3>Aulas particulares</h3>
+          <p>Repertório pronto pra nunca ficar sem saber o que aplicar.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="sec-div"><span></span></div>
+
+<!-- 4. O QUE VOCÊ RECEBE -->
+<section id="recebe" style="padding-top:0">
+  <div class="wrap">
+    <h2>O que você recebe</h2>
+    <p class="sub">Tudo em um só material, pra você abrir antes da aula e escolher.</p>
+    <div class="glass get">
+      <h3>Dentro do material</h3>
+      <ul>
+        <li><span class="chk">✓</span> <span>+300 atividades infantis de capoeira</span></li>
+        <li><span class="chk">✓</span> <span>Brincadeiras, dinâmicas e exercícios</span></li>
+        <li><span class="chk">✓</span> <span>Ginga, equilíbrio, agilidade e esquivas</span></li>
+        <li><span class="chk">✓</span> <span>Coordenação, circuitos e desafios</span></li>
+      </ul>
+      <h3>Roda e trabalho em grupo</h3>
+      <ul>
+        <li><span class="chk">✓</span> <span>Atividades em dupla e em grupo</span></li>
+        <li><span class="chk">✓</span> <span>Musicalidade e atividades para a roda</span></li>
+      </ul>
+      <h3>Pra sua realidade</h3>
+      <ul>
+        <li><span class="chk">✓</span> <span>Opções para diferentes idades, turmas grandes ou pequenas e poucos materiais</span></li>
+        <li><span class="chk">✓</span> <span>100 ilustrações com sequências de movimentos e exploded views</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="sec-div"><span></span></div>
+
+<!-- 5. DEMONSTRAÇÃO -->
+<section class="demo" style="padding-top:8px">
+  <div class="wrap">
+    <h2>Dá uma olhada por dentro</h2>
+    <p class="sub">Atividades explicadas com ilustrações.</p>
+  </div>
+  <div class="marquee-row"><div class="track" id="track1"></div></div>
+  <div class="marquee-row"><div class="track rev" id="track2"></div></div>
+</section>
+
+<div class="sec-div"><span></span></div>
+
+<!-- 6. BÔNUS -->
+<section class="sec-alt">
+  <div class="wrap">
+    <h2>Bônus no plano completo</h2>
+    <p class="sub">Pra você planejar mais rápido e adaptar pra qualquer turma.</p>
+    <div class="bonus-grid">
+      <article class="glass bcard">
+        <div class="bcover"><span>Bônus 1</span><img loading="lazy" src="assets/img-03.jpg" alt="Capa do bônus Planejador Semanal de Aulas"></div>
+        <div class="bbody">
+          <h3>Planejador Semanal de Aulas</h3>
+          <ul>
+            <li>Monte a semana em poucos minutos</li>
+            <li>Um espaço pra cada turma</li>
+            <li>Chega de planejar na véspera</li>
+          </ul>
+        </div>
+      </article>
+      <article class="glass bcard">
+        <div class="bcover"><span>Bônus 2</span><img loading="lazy" src="assets/img-04.jpg" alt="Capa do bônus Calendário de Aulas Temáticas"></div>
+        <div class="bbody">
+          <h3>Calendário de Aulas Temáticas</h3>
+          <ul>
+            <li>Dia das Crianças, Folclore e Festa Junina</li>
+            <li>Consciência Negra e datas culturais</li>
+            <li>Uma aula diferente nas datas especiais</li>
+          </ul>
+        </div>
+      </article>
+      <article class="glass bcard">
+        <div class="bcover"><span>Bônus 3</span><img loading="lazy" src="assets/img-05.jpg" alt="Capa do bônus Guia de Adaptação de Turmas"></div>
+        <div class="bbody">
+          <h3>Guia de Adaptação de Turmas</h3>
+          <ul>
+            <li>Turma grande e espaço pequeno</li>
+            <li>Idades misturadas na mesma roda</li>
+            <li>O que fazer quando faltam materiais</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+
+        <img class="summary-img" src="assets/img-06.jpg" alt="Resumo dos presentes: Planejador Semanal de Aulas, Calendário de Aulas Temáticas e Guia de Adaptação de Turmas — total Grátis">
+  </div>
+</section>
+
+<div class="sec-div"><span></span></div>
+
+<!-- 7. OFERTA -->
+<section id="oferta">
+  <div class="wrap">
+    <h2>Escolha seu acesso</h2>
+    <span class="badge-time">⏳ Preço de lançamento por tempo limitado</span>
+
+    <div class="plans">
+      <div class="glass plan">
+        <h3>Acesso Essencial</h3>
+        <p class="desc">Pra começar com o básico</p>
+        <div class="price"><s>de R$ 47</s><b>R$ 10</b><small>pagamento único</small></div>
+        <img class="plan-mock" src="assets/img-07.png" alt="Mockup do material Capoeira Kids">
+        <ul>
+          <li class="y">+150 atividades de capoeira infantil</li>
+          <li class="y">Acesso imediato ao PDF</li>
+          <li class="y">Garantia de 7 dias</li>
+          <li class="n">Material completo (+300 atividades)</li>
+          <li class="n">Bônus: Planejador Semanal de Aulas</li>
+          <li class="n">Bônus: Calendário de Aulas Temáticas</li>
+          <li class="n">Bônus: Guia de Adaptação de Turmas</li>
+        </ul>
+        <a class="btn alt" href="#" data-checkout="essencial">Quero somente o material</a>
+        <p style="text-align:center;color:var(--mut);font-size:.82rem;margin-top:10px">🛡️ Garantia de 7 dias — não gostou, reembolso total</p>
+      </div>
+
+      <div class="glass plan main">
+        <span class="ribbon">⭐ Mais escolhido</span>
+        <h3>Capoeira Kids Completo</h3>
+        <p class="desc">Tudo o que o material tem</p>
+        <div class="price"><s>de R$ 97</s><b>R$ 19,90</b><small>pagamento único</small></div>
+        <img class="plan-mock" src="assets/img-08.png" alt="Mockup do material Capoeira Kids com os 3 bônus">
+        <ul>
+          <li class="y">+300 atividades infantis de capoeira</li>
+          <li class="y">100 ilustrações e exploded views</li>
+          <li class="y">Musicalidade, roda, ginga e circuitos</li>
+          <li class="y">Bônus: Planejador Semanal de Aulas</li>
+          <li class="y">Bônus: Calendário de Aulas Temáticas</li>
+          <li class="y">Bônus: Guia de Adaptação de Turmas</li>
+          <li class="y">Acesso imediato ao PDF</li>
+          <li class="y">Garantia de 7 dias</li>
+        </ul>
+        <p style="text-align:center;font-weight:700;color:var(--ac);font-size:.92rem;margin-bottom:10px">Por apenas R$9,90 a mais, leve os 3 bônus</p>
+        <a class="btn" href="#" data-checkout="completo">Quero o Capoeira Kids Completo</a>
+        <p style="text-align:center;color:var(--mut);font-size:.82rem;margin-top:10px">🛡️ Garantia de 7 dias — não gostou, reembolso total</p>
+      </div>
+    </div>
+    <p class="pay">Pix • Cartão • Boleto &nbsp;|&nbsp; 🛡️ Compra 100% segura</p>
+  </div>
+</section>
+
+<div class="sec-div"><span></span></div>
+
+<!-- 8. GARANTIA -->
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="guar">
+      <img class="guar-seal" src="assets/img-09.png" alt="Selo de garantia de 7 dias Capoeira Kids">
+      <h2>Você tem 7 dias para conhecer o material.</h2>
+      <p>Acesse o material, veja como as atividades funcionam e avalie o conteúdo com calma. Se dentro do prazo de 7 dias você decidir que não quer continuar com o material, poderá solicitar o reembolso conforme as regras da plataforma de pagamento utilizada na compra.</p>
+    </div>
+  </div>
+</section>
+
+<div class="sec-div"><span></span></div>
+
+<!-- 9. FAQ -->
+<section style="padding-top:0">
+  <div class="wrap">
+    <h2>Perguntas frequentes</h2>
+    <p class="sub">&nbsp;</p>
+    <div class="faq" id="faq">
+      <details class="glass">
+        <summary>Já conheço muitas atividades. Vale a pena?</summary>
+        <p>Vale. Você já sabe dar aula. O que muda é ter um banco grande pra variar sem inventar tudo do zero. Quando as crianças disserem "essa a gente já fez", você abre e escolhe outra.</p>
+      </details>
+      <details class="glass">
+        <summary>Não acho isso de graça na internet?</summary>
+        <p>Dá pra achar ideia solta. Aqui você tem tudo reunido em um só lugar, com ilustrações, pra escolher em poucos minutos sem perder horas procurando vídeo.</p>
+      </details>
+      <details class="glass">
+        <summary>São atividades de capoeira de verdade?</summary>
+        <p>Sim. O material trabalha ginga, esquivas, equilíbrio, agilidade, musicalidade e atividades de roda, tudo em formato de brincadeira pra criança.</p>
+      </details>
+      <details class="glass">
+        <summary>Funciona com turma grande e pouco material?</summary>
+        <p>O material tem atividades pensadas para turmas grandes e pequenas, e também opções que usam poucos materiais.</p>
+      </details>
+      <details class="glass">
+        <summary>Tenho alunos de idades diferentes. Serve?</summary>
+        <p>O material traz atividades para diferentes idades. Você escolhe o que encaixa em cada turma.</p>
+      </details>
+      <details class="glass">
+        <summary>Vou usar mesmo as +300 atividades?</summary>
+        <p>Não precisa usar todas. É um banco pra consultar. Quem dá 3 aulas por semana precisa de centenas de atividades pra passar o ano sem repetir.</p>
+      </details>
+      <details class="glass">
+        <summary>Como eu recebo o material?</summary>
+        <p>Assim que o pagamento é aprovado, você recebe o acesso ao PDF. Dá pra abrir no celular, tablet ou computador.</p>
+      </details>
+      <details class="glass">
+        <summary>Qual a diferença entre os dois acessos?</summary>
+        <p>O Essencial traz +150 atividades. O Completo traz o material inteiro, com +300 atividades, as 100 ilustrações e os 3 bônus.</p>
+      </details>
+      <details class="glass">
+        <summary>E se eu não gostar?</summary>
+        <p>Você tem 7 dias de garantia. Pediu o reembolso, devolvemos o valor.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<div class="sec-div"><span></span></div>
+
+<!-- 10. FOOTER -->
+<footer>
+  <div class="wrap">
+    <p>© <span id="yr"></span> Capoeira Kids. Todos os direitos reservados.</p>
+    <p>Produto digital em PDF. Não há envio de material físico.</p>
+    <p>Este site não é afiliado ao Facebook ou à Meta.</p>
+  </div>
+</footer>
+
+<script>
+/* ====== CONTADOR REGRESSIVO (24h, por sessão) ====== */
+(function(){
+  var KEY = 'cap_deadline';
+  var deadline = sessionStorage.getItem(KEY);
+  if(!deadline){
+    deadline = Date.now() + 24*60*60*1000;
+    try{ sessionStorage.setItem(KEY, deadline); }catch(e){}
+  } else {
+    deadline = parseInt(deadline, 10);
+  }
+  var el = document.getElementById('countdown');
+  function pad(n){ return String(n).padStart(2,'0'); }
+  function tick(){
+    var diff = deadline - Date.now();
+    if(diff <= 0){ deadline = Date.now() + 24*60*60*1000; try{ sessionStorage.setItem(KEY, deadline); }catch(e){} }
+    diff = Math.max(0, deadline - Date.now());
+    var h = Math.floor(diff / 3600000);
+    var m = Math.floor((diff % 3600000) / 60000);
+    var s = Math.floor((diff % 60000) / 1000);
+    if(el) el.textContent = pad(h) + ':' + pad(m) + ':' + pad(s);
+  }
+  tick();
+  setInterval(tick, 1000);
+})();
+
+/* ====== CONFIGURAÇÃO ====== */
+var CHECKOUT = {
+  essencial: 'https://pay.wiapy.com/I2XNR-s4lawx',
+  completo:  'https://pay.wiapy.com/0Gn3edrRc68u'
+};
+var VIMEO_VIDEO_ID = '1231477827'; // ID do vídeo Vimeo (vertical 9:16)
+
+// Prints reais: cole aqui as imagens em base64 (data:image/jpeg;base64,...) ou URLs.
+// Enquanto estiver vazio, aparecem cards provisórios.
+var PRINTS = ["assets/img-10.jpg", "assets/img-11.jpg", "assets/img-12.jpg", "assets/img-13.jpg", "assets/img-14.jpg", "assets/img-15.jpg", "assets/img-16.jpg", "assets/img-17.jpg", "assets/img-18.jpg", "assets/img-19.jpg", "assets/img-20.jpg", "assets/img-21.jpg", "assets/img-22.jpg", "assets/img-23.jpg", "assets/img-24.jpg", "assets/img-25.jpg", "assets/img-26.jpg", "assets/img-27.jpg", "assets/img-28.jpg", "assets/img-29.jpg"];
+
+/* ====== UTM passthrough (Utmify) ====== */
+(function(){
+  var qs = location.search || '';
+  try{
+    if(qs){ sessionStorage.setItem('cap_qs', qs); }
+    else { qs = sessionStorage.getItem('cap_qs') || ''; }
+  }catch(e){}
+  function withQS(url){
+    if(!qs) return url;
+    return url + (url.indexOf('?') > -1 ? '&' : '?') + qs.replace(/^\?/, '');
+  }
+  var PLAN_VALUE = { essencial: 10, completo: 19.90 };
+  document.querySelectorAll('[data-checkout]').forEach(function(a){
+    var plan = a.getAttribute('data-checkout');
+    var base = CHECKOUT[plan];
+    a.href = withQS(base);
+    a.addEventListener('click', function(){
+      a.href = withQS(base);
+      if(typeof fbq === 'function'){
+        fbq('track', 'InitiateCheckout', {
+          content_name: plan === 'completo' ? 'Capoeira Kids Completo' : 'Acesso Essencial',
+          content_ids: [plan],
+          value: PLAN_VALUE[plan],
+          currency: 'BRL'
+        });
+      }
+    });
+  });
+})();
+
+/* ====== VSL (Gumlet) ====== */
+(function(){
+  var poster = document.getElementById('poster');
+  var phone = document.getElementById('phone');
+  var f = null;
+
+  if(VIMEO_VIDEO_ID){
+    // pré-carrega o vídeo (pausado) por trás do poster pra eliminar o delay no clique
+    f = document.createElement('iframe');
+    f.src = 'https://player.vimeo.com/video/' + VIMEO_VIDEO_ID +
+      '?badge=0&autopause=0&player_id=0&app_id=58479&byline=0&portrait=0&autoplay=0';
+    f.allow = 'autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share';
+    f.allowFullscreen = true;
+    f.title = 'Vídeo Capoeira Kids';
+    phone.insertBefore(f, poster);
+
+    poster.addEventListener('click', function(){
+      poster.remove();
+      f.contentWindow.postMessage(JSON.stringify({method:'play'}), '*');
+    });
+  } else {
+    poster.addEventListener('click', function(){ document.getElementById('oferta').scrollIntoView({behavior:'smooth'}); });
+  }
+})();
+
+/* ====== Dois carrosséis automáticos (sentidos opostos) ====== */
+(function(){
+  function buildItems(list){
+    if(list.length){
+      return list.map(function(src){ return '<div class="slide"><img src="'+src+'" alt="Página do material Capoeira Kids" loading="lazy"></div>'; });
+    }
+    var ph = [['🤸','Ginga'],['🌀','Esquivas'],['⚖️','Equilíbrio'],['🥁','Roda'],['🔁','Circuitos'],['🤝','Em dupla'],['🎶','Musicalidade'],['🏆','Desafios']];
+    return ph.map(function(p){ return '<div class="slide" style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px"><div class="ic">'+p[0]+'</div><div class="nm">'+p[1]+'</div></div>'; });
+  }
+  var half = Math.ceil(PRINTS.length / 2);
+  var row1 = buildItems(PRINTS.slice(0, half));
+  var row2 = buildItems(PRINTS.slice(half));
+  if(!row2.length) row2 = row1;
+  var html1 = row1.join(''); var html2 = row2.join('');
+  document.getElementById('track1').innerHTML = html1 + html1;
+  document.getElementById('track2').innerHTML = html2 + html2;
+})();
+
+/* ====== FAQ: abre um por vez ====== */
+document.querySelectorAll('#faq details').forEach(function(d){
+  d.addEventListener('toggle', function(){
+    if(d.open){ document.querySelectorAll('#faq details').forEach(function(o){ if(o!==d) o.open=false; }); }
+  });
+});
+
+document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
